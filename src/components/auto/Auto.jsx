@@ -11,7 +11,7 @@ class Auto extends React.Component {
     render() {
 
         return(
-            <section className="container">
+            <section className="container" id="aanbod">
                 <AdvList advClicked/>
             </section>
         );
