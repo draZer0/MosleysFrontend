@@ -1,5 +1,4 @@
 import React from "react";
-import contact from '../../assets/img/contact.jpg';
 import jack from '../../assets/img/jack.png';
 import './Contact.scss';
 
@@ -11,9 +10,7 @@ class Contact extends React.Component {
 
                 <section className="container contact__container">
 
-                    <figure>
-                        <img src={contact} alt="Afbeelding van Mosley's garage van buitenaf"/>
-                    </figure>
+                    <section className="locatie"></section>
 
                     <article className="data">
                         <h1>Mosley's</h1>

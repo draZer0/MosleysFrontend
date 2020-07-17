@@ -15,14 +15,14 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: center;
+}
 
-    // Figure
-    figure {
-
-        img {
-            max-width: 100%;
-        }
-    }
+// Contact afbeelding
+.locatie {
+    background-image: url(../../assets/img/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
 
 // Data
@@ -55,5 +55,22 @@
             font-weight: 600;
         }
 
+    }
+}
+
+// Responsive
+@media screen and (max-width: $bp_tablet){
+    .contact__container {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: $bp_mobile){
+    .contact__container {
+        grid-template-columns: 1fr;
+    }
+
+    .locatie {
+        display: none;
     }
 }
