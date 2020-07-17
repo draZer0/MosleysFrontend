@@ -1,0 +1,57 @@
+// Imports
+@import '../../assets/scss/reset';
+@import '../../assets/scss/var';
+@import '../../assets/scss/default';
+
+// Grid
+.items {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+// Item in grid
+.item {
+    border: 1px solid $color_darkergrey;
+
+    figure img {
+        width: 100%;
+    }
+
+    &__info {
+        padding: 20px;
+
+        > p {
+            margin-top: 20px;
+            font-size: .9em;
+            color: $color_darkgrey;
+            font-style: italic;
+        }
+    }
+        
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        h3 {
+            font-weight: 700;
+            font-size: 1.3em;
+        }
+    }
+
+    &__main {
+        div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: $bp_tablet){
+    .items {
+        grid-template-columns: 1fr;
+    }
+}
