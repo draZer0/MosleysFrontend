@@ -1,7 +1,65 @@
 // Imports
+@import '../../assets/scss/reset';
+@import '../../assets/scss/var';
+@import '../../assets/scss/default';
 
 // Header
 .header {
-    background-color: #fff; //DEBUG
+    background-color: $color_white;
+}
+
+// Container
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// Figure
+.header__figure {
+
+    img {
+        max-width: 130px;
+    }
+}
+
+// Links
+.header__links {
     
+    ul {
+        list-style-type: none;
+
+        li {
+            display: inline;
+            
+            a {
+                text-decoration: none;
+                color: $color_black;
+                text-transform: uppercase;
+                transition: color .2s ease;
+
+                &:hover {
+                    color: $color_yellow;
+                }
+            }
+        }
+
+        li:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+
+}
+
+// Responsive
+@media screen and (max-width: $bp_tablet){
+    .header__figure {
+        margin-bottom: 20px;
+    }
+    
+    .container {
+        padding-bottom: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
 }

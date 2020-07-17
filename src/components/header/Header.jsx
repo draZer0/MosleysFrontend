@@ -9,12 +9,20 @@ class Header extends React.Component {
         return(
             <header className="header">
 
-                <figure className="header__figure">
-                    <img src={logo} alt="Logo van Mosley's car dealer"/>
-                </figure>
+                <section className="container">
+                    <figure className="header__figure">
+                        <a href="#">
+                            <img src={logo} alt="Logo van Mosley's car dealer"/>
+                        </a>
+                    </figure>
 
-                <section className="header__links">
-                    <p>Test link</p>
+                    <section className="header__links">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#aanbod">Aanbod</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </section>
                 </section>
 
             </header>
