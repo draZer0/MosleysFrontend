@@ -4,11 +4,15 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 import Header from './components/header/Header';
+import Banner from './components/banner/Banner';
+import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <Banner />
+    <Contact />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')

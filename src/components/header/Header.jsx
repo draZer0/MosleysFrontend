@@ -7,22 +7,22 @@ class Header extends React.Component {
     render() {
 
         return(
-            <header className="header">
+            <header className="header" id="home">
 
-                <section className="container">
+                <section className="container header__container">
                     <figure className="header__figure">
-                        <a href="#">
+                        <a href="#home">
                             <img src={logo} alt="Logo van Mosley's car dealer"/>
                         </a>
                     </figure>
 
-                    <section className="header__links">
+                    <nav className="header__links">
                         <ul>
                             <li><a href="#home">Home</a></li>
                             <li><a href="#aanbod">Aanbod</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
-                    </section>
+                    </nav>
                 </section>
 
             </header>

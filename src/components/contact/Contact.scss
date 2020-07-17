@@ -1,0 +1,59 @@
+// Imports
+@import '../../assets/scss/reset';
+@import '../../assets/scss/var';
+@import '../../assets/scss/default';
+
+// Contact
+.contact {
+    margin: 80px 0;
+
+}
+
+// Container
+.contact__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+
+    // Figure
+    figure {
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+// Data
+.data {
+
+    h1 {
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+
+    ul {
+        margin: 20px 0;
+    }
+
+    &__verkoper {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+
+        figure {
+            margin-right: 20px;
+
+            img {
+                max-width: 100px;
+            }
+        }
+
+        h2 {
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+
+    }
+}
