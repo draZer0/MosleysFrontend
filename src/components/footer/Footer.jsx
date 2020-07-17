@@ -6,9 +6,12 @@ class Footer extends React.Component {
     render() {
 
         return(
-            <section className="test" id="test">
-                
-            </section>
+            <footer>
+                <section className="container">
+                    <p>Copyright &copy; 2020 <a href="https://www.folduxrp.nl/">FolduxRP</a></p>
+                    <p>Website ontwikkeling door drazero</p>
+                </section>
+            </footer>
         );
     }
 }

@@ -41,5 +41,10 @@
         color: $color_black;
         background-color: $color_yellow;
         font-weight: 700;
+        transition: opacity .2s ease;
+
+        &:hover {
+            opacity: .8;
+        }
     }
 }
