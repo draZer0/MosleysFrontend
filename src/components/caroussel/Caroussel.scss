@@ -1,0 +1,19 @@
+// Imports
+@import '../../assets/scss/reset';
+@import '../../assets/scss/var';
+@import '../../assets/scss/default';
+
+// Caroussel
+.caroussel {
+    margin-top: 80px;
+    padding: 20px 0;
+    background-color: $color_grey;
+}
+
+// Responsive
+@media screen and (max-width: $bp_laptop){
+
+    .caroussel {
+        display: none;
+    }
+}
