@@ -19,7 +19,7 @@ class Contact extends React.Component {
                             <li>1905 BV, Los Santos</li>
                         </ul>
                         <ul>
-                            <li>T: 06 12345678</li>
+                            <li>T: 06 695 610 89</li>
                             <li>E: sales@mosleys.nl</li>
                         </ul>
                         <div className="data__verkoper">

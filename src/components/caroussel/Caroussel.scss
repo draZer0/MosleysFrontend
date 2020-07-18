@@ -8,7 +8,10 @@
     margin-top: 80px;
     padding: 20px 0;
     background-color: $color_grey;
+    outline: none;
 }
+
+.slick-slide, .slick-slide *{ outline: none !important; }
 
 // Responsive
 @media screen and (max-width: $bp_laptop){

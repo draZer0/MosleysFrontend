@@ -22,6 +22,9 @@ class Caroussel extends React.Component {
             speed: 8000,
             autoplaySpeed: 0,
             pauseOnHover: false,
+            touchMove: false,
+            focusOnSelect: false,
+            wipe: false,
             cssEase: "linear"
         };
         

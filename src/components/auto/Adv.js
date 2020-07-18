@@ -37,7 +37,7 @@ class Adv extends React.Component {
                         </div>
                         <div>
                             <p>Kilometer stand:</p>
-                            <p>{this.props.kmstand}</p>
+                            <p>{this.props.kmstand} km</p>
                         </div>
                     </main>
                     <p>Neem contact op met onze verkoopadviseur bij interesse in dit voertuig.</p>

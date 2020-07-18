@@ -21,6 +21,7 @@ class AdvList extends React.Component {
         const data = res.data
         const autos = data.map(u =>
             <Adv id={u.id}
+                key={u.id}
                 merk={u.merk}
                 type={u.type}
                 prijs={u.prijs}

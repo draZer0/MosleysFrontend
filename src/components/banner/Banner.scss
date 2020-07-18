@@ -48,3 +48,13 @@
         }
     }
 }
+
+// Responsive
+@media screen and (max-width: $bp_mobile){
+    
+    .voorraad__contact {
+        a {
+            display: none;
+        }
+    }
+}
