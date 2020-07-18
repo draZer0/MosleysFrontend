@@ -10,7 +10,7 @@ class Adv extends React.Component {
         return (
             <article className="item">
                 <figure>
-                    <img src={this.props.foto} alt="Afbeelding van een voertuig"/>
+                    <img src={this.props.foto || "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/51/2018/10/22110742/Coming-soon.jpg"} alt="Afbeelding van een voertuig"/>
                 </figure>
 
                 <article className="item__info">

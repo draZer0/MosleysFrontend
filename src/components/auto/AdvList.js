@@ -30,7 +30,7 @@ class AdvList extends React.Component {
                 transmissie={u.transmissie}
                 brandstof={u.brandstof}
                 kmstand={u.kmstand}
-                foto="https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/51/2018/10/22110742/Coming-soon.jpg"
+                foto={u.foto}
                 cardClicked={this.cardClicked}
             />
         )
